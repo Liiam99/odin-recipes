@@ -28,8 +28,10 @@ h1 {
     border: 6px solid black;
     background-color: white;
     margin: 30px 50px;
-    height: 400px;
+    height: 350px;
+    max-width: 400px;
     transition: transform .2s;
+    padding-bottom: 20px;
 }
 
 .recipe-card:hover {
@@ -38,6 +40,7 @@ h1 {
 
 .recipe-card img {
     max-height: 80%;
+    max-width: 100%;
     object-fit: cover;
     width: 500px;
 }
